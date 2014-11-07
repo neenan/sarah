@@ -1,0 +1,192 @@
+/* {border: 1px dashed black;}-->*/
+    body {
+      color: white;
+      background: black;
+      background-size: cover;
+      background-position: center;
+      font-family: helvetica;
+      
+    }
+
+    p {color:white;
+      font-size: 16px;
+  		font-family: 'Poiret One', cursive;
+      margin-top: 10px;}
+
+    header {
+    	background: url("http://s3.amazonaws.com/rapgenius/1361742626_beautiful-ocean-beautiful-pictures-27115524-1440-900.jpg");
+      height: 310px;
+      text-align: center;
+      background-size: cover;
+      background-position: bottom;
+      color: black;
+      font-family: cursive;
+      padding-bottom: -30px;
+    }
+
+    header h1{font-family: Edwardian Script ITC;
+      font-size: 40px;
+      letter-spacing: 4px;
+      word-spacing: 6px;
+      margin-top: -5px;
+      padding-top: -10px;
+      margin-bottom: -20px;
+      padding-bottom: 0px;
+      }
+
+    span{font-size: 70px;
+      font-family: Edwardian Script ITC;
+    margin-top: 0px;
+      padding-top: 0px;
+      margin-bottom: 0px;
+      padding-bottom: 0px;}
+    
+    a {
+      color: black;
+      font-family: Garamond;
+    }
+    h1 {
+      font-size: 40px;
+    }
+
+    h2{font-family:'Poiret One', cursive;
+    margin-bottom: 20px;}
+    
+    h3 {font-size 36px; font-family: Garamond;}
+
+    img {
+      margin: 30px 0px 0px 0px;
+      padding-bottom: 0px;
+      border: 4px solid black;
+      border-radius: 20px;
+    }
+    
+    ul {
+      padding: 10px;
+      background: rgba(7,7,85,0.3);
+    }
+    
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    
+    div{color:white;}
+
+    a:hover {font-family:Courier;}
+
+    /*.left {
+          text-align: center;
+         height: 400px;
+         width: 1%;
+         background-color: black;
+         float: left;
+         margin-top: 10px;
+         margin-bottom: 10px;
+         margin-left: 10px;
+      }*/
+  
+    .right {
+        height: 700px;
+        width: 80%;
+        background-color: black;
+       margin: 10px 50px 10px 50px;
+       padding: 0 60px 0 60px;
+       display: inline;
+      }
+
+      .right p {margin: 15px 40px 0 40px;
+        padding: 0 30px 0 30px;}
+      .right h2 {margin: 0 40px 20px 40px;}
+
+/**{border: 1px solid white;}
+*/
+    #footer {
+      height: 30px;
+      background-color: rgba(117,1,103,0.1);
+      clear: both;
+      margin-top: 40px;
+      text-align: center;
+      font-size: 14px;
+      font-family: Garamond;
+      padding-top: 18px;
+      letter-spacing: 1px;
+      position: absolute;
+      bottom: 12px;
+      width: 100%;
+      }
+
+table {text-align: center;
+      margin: auto;
+      padding: 5px 5px 5px 5px;
+
+    }
+
+table img {border: 1px solid black;}
+
+.hl {color: white;
+text-decoration: underline;
+font-family: 'Poiret One', cursive;
+font-weight: bold;
+letter-spacing: 2px;}
+
+ol li {display: block;
+  font-family: 'Poiret One', cursive;
+  position: relative;
+  left: 110px;
+  line-height: 20px;
+}
+
+.extra1 {
+  background-image: url(platform.png);
+  position: fixed;
+  top: 270px;
+  right: 85px;
+  width: 85px;
+  height: 184px;
+  margin: -85px;
+}
+
+.extra2 {
+  background-image: url(edge_bottom_black.gif);
+  background-repeat: repeat-x;
+  position: fixed;
+  bottom: 0;
+  left: 100%;
+  width: 100%;
+  height: 20px;
+  margin-left: -100%;
+}
+
+.extra3 {
+  background-image: url(edge_top_black.gif);
+  background-repeat: repeat-x;
+  position: fixed;
+  top: 0;
+  left: 100%;
+  width: 100%;
+  height: 20px;
+  margin-left: -100%;
+}
+
+.extra4 {
+  background-image: url(edge_left_black.gif);
+  background-repeat: repeat-y;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 100%;
+  margin: 0;
+}
+
+.extra5 {
+  background-image: url(edge_right_black.gif);
+  background-repeat: repeat-y;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 20px;
+  height: 100%;
+  margin: 0;
+}
