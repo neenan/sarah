@@ -5,7 +5,7 @@
       background-size: cover;
       background-position: center;
       font-family: helvetica;
-      
+
     }
 
     p {color:white;
@@ -71,6 +71,8 @@
                 padding: 0 30px 0 30px;}
       .right h2 {margin: 0 40px 20px 40px;}
 
+/*.container {padding-bottom: 100px;}*/
+
     h1 {
       font-size: 40px;
         }
@@ -112,7 +114,7 @@
 */
 
 
-.container {height: 1000px;}
+/*.container {height: 1000px;}*/
 
 table {text-align: center;
       margin: auto;
@@ -148,18 +150,19 @@ ol li {display: block;
 
 /*style for the footer*/
 
-    #footer {clear: both;
+    #footer {position: relative;
+      bottom: 12px;
+      clear: both;
+      /*margin-top: -150px;  /* negative value of footer height */
       height: 30px;
       background-color: rgba(117,1,103,0.1);
-      margin-top: 40px;
-      margin-bottom: -10px;
+     /* margin-top: 40px;*/
+      margin-bottom: -20px;
       text-align: center;
       font-size: 14px;
       font-family: Garamond;
       padding-top: 18px;
       letter-spacing: 1px;
-      position: absolute;
-      bottom: 12px;
       width: 100%;
       }
 
