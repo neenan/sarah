@@ -1,4 +1,7 @@
 /* {border: 1px dashed black;}-->*/
+
+/*main page layout*/
+
     body {
       color: white;
       background: black;
@@ -38,7 +41,7 @@
 
     span{font-size: 70px;
       font-family: Edwardian Script ITC;
-    margin-top: 0px;
+      margin-top: 0px;
       padding-top: 0px;
       margin-bottom: 0px;
       padding-bottom: 0px;}
@@ -78,8 +81,6 @@
         border-radius: 30px;
       }
 
-/*.container {padding-bottom: 100px;}*/
-
     h1 {
       font-size: 40px;
         }
@@ -117,11 +118,6 @@
          margin-left: 10px;
       }*/
   
-/**{border: 1px solid white;}
-*/
-
-
-/*.container {height: 1000px;}*/
 
 table {text-align: center;
       margin: auto;
@@ -154,11 +150,19 @@ ol li {display: block;
        line-height: 20px;
       }
 
+.gallery {display: block;
+  margin: auto;}
+
+  .bullets {background-color: black;
+    list-style-type: circle;
+    font-family: 'Poiret One', cursive;}
+
+  
 
 /*style for the footer*/
 
     #footer {position: relative;
-      bottom: 12px;
+      bottom: 6px;
       clear: both;
       /*margin-top: -150px;  /* negative value of footer height */
       height: 30px;
