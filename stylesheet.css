@@ -230,4 +230,61 @@ ol li {display: block;
 
 
 
+/*Mobile weibsite*/
+
+@media (max-width: 480px) {
+
+header {
+      background: url("http://s3.amazonaws.com/rapgenius/1361742626_beautiful-ocean-beautiful-pictures-27115524-1440-900.jpg");
+       height: 350px;
+      text-align: center;
+      background-size: cover;
+      background-position: bottom;
+      color: black;
+      font-family: cursive;
+      padding-bottom: -30px;
+    }
+
+ ul {top: 240px;
+}
+
+
+.right {width: 80%;
+       height: 100%;}
+
+
+
+}
+
+
+/*Tablet weibsite*/
+
+@media (max-width: 768px) {
+ 
+
+header {
+      background: url("http://s3.amazonaws.com/rapgenius/1361742626_beautiful-ocean-beautiful-pictures-27115524-1440-900.jpg");
+       height: 330px;
+      text-align: center;
+      background-size: cover;
+      background-position: bottom;
+      color: black;
+      font-family: cursive;
+      padding-bottom: -30px;
+    }
+
+ ul {top: 240px;
+}
+
+
+.right {width: 80%;
+       height: 100%;}
+
+
+
+
+
+}
+
+
 
