@@ -357,7 +357,7 @@ header div {margin: 10px 0 20px 30px;
 
 /*Mobile weibsite*/
 
-@media (max-width: 470px) {
+@media (max-width: 480px) {
  ul {top: 180px;
 }
 
@@ -386,7 +386,7 @@ header div {margin: 10px 0 20px 30px;
         top: 20px;
         right: 5%;}
 
-.btn-sarah {width: 200px;
+.btn-sarah {width: 180px;
         position: absolute;
         top: 20px;
         right: 5%;}
