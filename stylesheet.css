@@ -183,18 +183,9 @@ ol li {display: block;
 
 /*styles for the black border around page*/
 
-.extra1 {
-  background-image: url(platform.png);
-  position: fixed;
-  top: 270px;
-  right: 85px;
-  width: 85px;
-  height: 184px;
-  margin: -85px;
-  }
 
-.extra2 {
-  background-image: url(edge_bottom_black.gif);
+.extra1 {
+  background-image: url(images/edge_bottom_black.gif);
   background-repeat: repeat-x;
   position: fixed;
   bottom: 0;
@@ -204,8 +195,8 @@ ol li {display: block;
   margin-left: -100%;
   }
 
-.extra3 {
-  background-image: url(edge_top_black.gif);
+.extra2 {
+  background-image: url(images/edge_top_black.gif);
   background-repeat: repeat-x;
   position: fixed;
   top: 0;
@@ -215,8 +206,8 @@ ol li {display: block;
   margin-left: -100%;
   }
 
-.extra4 {
-  background-image: url(edge_left_black.gif);
+.extra3 {
+  background-image: url(images/edge_left_black.gif);
   background-repeat: repeat-y;
   position: fixed;
   top: 0;
@@ -226,8 +217,8 @@ ol li {display: block;
   margin: 0;
   }
 
-.extra5 {
-  background-image: url(edge_right_black.gif);
+.extra4 {
+  background-image: url(images/edge_right_black.gif);
   background-repeat: repeat-y;
   position: fixed;
   top: 0;
