@@ -357,7 +357,7 @@ header div {margin: 10px 0 20px 30px;
 
 /*Mobile weibsite*/
 
-@media (max-width: 500px) {
+@media (max-width: 470px) {
  ul {top: 180px;
 }
 .btn-default {  position: absolute;
@@ -367,14 +367,15 @@ header div {margin: 10px 0 20px 30px;
  .twitter {margin: 10px 0 20px 30px;
         position: absolute;
         top: 170px;
-        right: 8%;}
+        right: 5%;}
 
   .facebook {margin: 10px 0 20px 30px;
         position: absolute;
         top: 20px;
         right: 5%;}
 
-.btn-sarah {position: absolute;
+.btn-sarah {width: 220px;
+        position: absolute;
         top: 20px;
         right: 5%;}
 
