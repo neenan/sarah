@@ -373,6 +373,10 @@ header div {margin: 10px 0 20px 30px;
         top: 20px;
         right: 5%;}
 
+.btn-sarah {position: absolute;
+        top: 20px;
+        right: 65%;}
+
  .extra1 {position: absolute;
   top: 120px;
   right: 50%;
@@ -399,16 +403,21 @@ h1 {display: none;}
 
  .twitter {margin: 10px 0 20px 30px;
         position: absolute;
-        top: 25px;}
+        top: 20px;
+        right: 5%;}
 
   .facebook {margin: 10px 0 20px 30px;
         position: absolute;
-        top: 25px;
-        right: 5%;}
-
-.btn-default {  position: absolute;
         top: 200px;
         right: 5%;}
+
+.btn-default {position: absolute;
+        top: 200px;
+        right: 5%;}
+
+.btn-sarah {position: absolute;
+        top: 20px;
+        right: 65%;}
 
     a {
       color: white;
