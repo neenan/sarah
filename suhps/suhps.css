@@ -366,7 +366,8 @@ header div {margin: 10px 0 20px 30px;
 
  .twitter {margin: 10px 0 20px 30px;
         position: absolute;
-        top: 20px;}
+        top: 170px;
+        right: 5%;}
 
   .facebook {margin: 10px 0 20px 30px;
         position: absolute;
@@ -375,7 +376,7 @@ header div {margin: 10px 0 20px 30px;
 
 .btn-sarah {position: absolute;
         top: 20px;
-        right: 65%;}
+        right: 5%;}
 
  .extra1 {position: absolute;
   top: 120px;
