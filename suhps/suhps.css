@@ -358,7 +358,7 @@ header div {margin: 10px 0 20px 30px;
 /*Mobile weibsite*/
 
 @media (max-width: 480px) {
- ul {top: 200px;
+ ul {top: 180px;
 }
 .btn-default {  position: absolute;
         top: 170px;
