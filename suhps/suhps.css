@@ -362,7 +362,7 @@ header div {margin: 10px 0 20px 30px;
 }
 .btn-default {  position: absolute;
         top: 170px;
-        right: 5%;}
+        right: 50%;}
 
  .twitter {margin: 10px 0 20px 30px;
         position: absolute;
@@ -384,6 +384,17 @@ header div {margin: 10px 0 20px 30px;
   width: 180px;
   height: 180px;
  }
+
+ header {
+      background: url("images/underwater.png");
+      height: 300px;
+      text-align: center;
+      background-size: cover;
+      background-position: bottom;
+      color: white;
+      font-family: cursive;
+      padding-bottom: -30px;
+    }
 
 }
 
