@@ -357,17 +357,17 @@ header div {margin: 10px 0 20px 30px;
 
 /*Mobile weibsite*/
 
-@media (max-width: 480px) {
+@media (max-width: 500px) {
  ul {top: 180px;
 }
 .btn-default {  position: absolute;
         top: 170px;
-        right: 50%;}
+        right: 5%;}
 
  .twitter {margin: 10px 0 20px 30px;
         position: absolute;
         top: 170px;
-        right: 5%;}
+        right: 8%;}
 
   .facebook {margin: 10px 0 20px 30px;
         position: absolute;
