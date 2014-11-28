@@ -168,7 +168,9 @@ ol li {display: block;
     font-family: 'Poiret One', cursive;}
 
 
-.indo tr {width: 300px;}  
+.indo tr {width: 300px;} 
+
+
 
 /*style for the footer*/
 
@@ -262,6 +264,8 @@ header {
 #footer {bottom: 10px;
 }
 
+.shift li {left: 10px;
+width: 80%;} 
 }
 
 
@@ -294,7 +298,10 @@ header {
     margin-left:auto; 
     margin-right:auto;}
 
-.fwpictures {width: 300px; 
+.fwpictures {width: 300px; }
+
+.shift li {left: 20px;
+width: 80%;} 
 
 }
 
