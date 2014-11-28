@@ -62,7 +62,7 @@
 /*Styles for main body of text*/
 
    .right {
-         height: 1000px;
+         height: 100%;
          width: 80%;
          background-color: black;
          margin: 10px 50px 10px 50px;
@@ -103,7 +103,8 @@
       padding: 0px 10px 0px 10px;
        }
     
-    div{color:white;}
+    div{color:white;
+    }
 
     a:hover {font-family:Courier;}
 
@@ -136,6 +137,12 @@ table tr th:empty {
     width: 40px;
     }
 
+.fwtable {display: inline-table;
+      }
+
+.fwpictures {width: 1100px; 
+  margin-left: auto;
+margin-right: auto;}
 
 .hl {color: white;
       text-decoration: underline;
@@ -160,18 +167,19 @@ ol li {display: block;
     list-style-type: circle;
     font-family: 'Poiret One', cursive;}
 
-  
+
+.indo tr {width: 300px;}  
 
 /*style for the footer*/
 
     #footer {position: relative;
-      bottom: 6px;
+      bottom: 0px;
       clear: both;
       /*margin-top: -150px;  /* negative value of footer height */
       height: 30px;
       background-color: rgba(117,1,103,0.1);
      /* margin-top: 40px;*/
-      margin-bottom: -20px;
+      margin-top: 8px;
       text-align: center;
       font-size: 14px;
       font-family: Garamond;
@@ -273,7 +281,6 @@ header {
 .right {width: 95%;
        height: 100%;}
 
-
 .right p {margin: 15px 0px 0 0px;
                 padding: 0 30px 0 30px;}
 
@@ -281,6 +288,13 @@ header {
 
 #footer {bottom: 10px;
 }
+
+.fwtable {display: block;
+ width:300px; 
+    margin-left:auto; 
+    margin-right:auto;}
+
+.fwpictures {width: 300px; 
 
 }
 
