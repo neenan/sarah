@@ -309,7 +309,7 @@ width: 80%;}
 
 /*Tablet website*/
 
-@media (max-width: 768px) and (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi){
+@media (max-width: 768px) {
  
 
 header {
