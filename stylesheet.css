@@ -83,7 +83,7 @@
                 padding: 0 30px 0 30px;}
       .right h2 {margin: 0 40px 20px 40px;}
 
-      .right img {float:right;
+      #right {float:right;
         margin: 5px;
         height: 350px;
         width: 380px;}
