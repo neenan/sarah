@@ -93,6 +93,11 @@
         height: 300px;
         width: 380px;}
 
+    #indexpic {float:right;
+        margin: 5px;
+        height: 200px;
+        width: 170px;}
+
       #logo img {height: 200px;
         width: 200px;
         display: block;
