@@ -156,8 +156,10 @@ ol li {display: block;
       }*/
   
 
+.white {color: white;}
 
-
+.emailbtn {margin-left: 40px;
+border-radius: 5px;}
 
   /* table layouts! */
 
