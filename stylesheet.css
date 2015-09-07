@@ -156,9 +156,11 @@ ol li {display: block;
       }*/
   
 
-.white {color: white;}
+.white {color: white;
+font-family: helvetica;
+text-decoration: none;}
 
-.emailbtn {margin-left: 60px;
+.emailbtn {margin-left: 65px;
 border-radius: 5px;}
 
   /* table layouts! */
