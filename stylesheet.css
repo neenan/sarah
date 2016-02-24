@@ -1,17 +1,26 @@
 /* {border: 1px dashed black;}-->*/
+
+/*main page layout*/
+
     body {
       color: white;
       background: black;
       background-size: cover;
       background-position: center;
       font-family: helvetica;
-      
+
     }
 
     p {color:white;
       font-size: 16px;
   		font-family: 'Poiret One', cursive;
       margin-top: 10px;}
+
+
+
+
+
+/*styles for header section*/
 
     header {
     	background: url("http://s3.amazonaws.com/rapgenius/1361742626_beautiful-ocean-beautiful-pictures-27115524-1440-900.jpg");
@@ -36,7 +45,7 @@
 
     span{font-size: 70px;
       font-family: Edwardian Script ITC;
-    margin-top: 0px;
+      margin-top: 0px;
       padding-top: 0px;
       margin-bottom: 0px;
       padding-bottom: 0px;}
@@ -45,35 +54,95 @@
       color: black;
       font-family: Garamond;
     }
-    h1 {
-      font-size: 40px;
-    }
 
-    h2{font-family:'Poiret One', cursive;
-    margin-bottom: 20px;}
-    
-    h3 {font-size 36px; font-family: Garamond;}
+    a:hover {font-weight:bold;}
 
-    img {
+     img {
       margin: 30px 0px 0px 0px;
       padding-bottom: 0px;
       border: 4px solid black;
       border-radius: 20px;
     }
+
+
+
     
+
+/*Styles for main body of text*/
+
+   .right {
+         height: 100%;
+         width: 80%;
+         background-color: black;
+         margin: 10px 50px 10px 50px;
+         padding: 0 60px 0 60px;
+         display: inline;
+         }
+
+      .right p {margin: 15px 40px 0 40px;
+                padding: 0 30px 0 30px;}
+      .right h2 {margin: 0 40px 20px 40px;}
+
+      #right {float:right;
+        margin: 5px;
+        height: 350px;
+        width: 380px;}
+
+  #left {float:left;
+        margin: 5px;
+        height: 300px;
+        width: 380px;}
+
+    #indexpic {float:right;
+        margin: 5px;
+        height: 200px;
+        width: 170px;}
+
+      #logo img {height: 200px;
+        width: 200px;
+        display: block;
+        margin: auto;
+        border-radius: 30px;
+      }
+
+    h1 {
+      font-size: 40px;
+        }
+
+    h2{font-family:'Poiret One', cursive;
+        margin-bottom: 20px;}
+    
+    h3 {font-size: 36px; 
+        font-family: Garamond;}
+
+    #heading {font-weight: bold;}
+
     ul {
       padding: 10px;
       background: rgba(7,7,85,0.3);
-    }
+       }
     
     li {
       display: inline;
       padding: 0px 10px 0px 10px;
-    }
+       }
     
-    div{color:white;}
+    div{color:white;
+    }
 
-    a:hover {font-family:Courier;}
+    .hl {color: white;
+      text-decoration: underline;
+      font-family: 'Poiret One', cursive;
+      font-weight: bold;
+      letter-spacing: 2px;}
+
+ol li {display: block;
+       font-family: 'Poiret One', cursive;
+       position: relative;
+       left: 110px;
+       line-height: 20px;
+      }
+
 
     /*.left {
           text-align: center;
@@ -86,69 +155,85 @@
          margin-left: 10px;
       }*/
   
-    .right {
-        height: 700px;
-        width: 80%;
-        background-color: black;
-       margin: 10px 50px 10px 50px;
-       padding: 0 60px 0 60px;
-       display: inline;
+
+
+
+
+  /* table layouts! */
+
+table {text-align: center;
+      margin: auto;
+      padding: 5px 5px 5px 5px;
       }
 
-      .right p {margin: 15px 40px 0 40px;
-        padding: 0 30px 0 30px;}
-      .right h2 {margin: 0 40px 20px 40px;}
+table img {border: 1px solid black;
+            width: 250px; 
+            height: 150px;}
 
-/**{border: 1px solid white;}
-*/
-    #footer {
+table tr td:empty {
+    width: 40px;
+    }
+
+table tr th:empty {
+    width: 40px;
+    }
+
+.fwtable {display: inline-table;
+      }
+
+.fwpictures {width: 1100px; 
+  margin-left: auto;
+margin-right: auto;}
+
+.indopictures {width: 700px; 
+  margin-left: auto;
+margin-right: auto;}
+
+.projectpictures {width: 900px; 
+  margin-left: auto;
+margin-right: auto;}
+
+.engd {line-height: 24px;}
+
+.gallery {display: block;
+  margin: auto;}
+
+.bullets {background-color: black;
+    list-style-type: circle;
+    font-family: 'Poiret One', cursive;}
+
+
+
+
+
+
+/*style for the footer*/
+
+    #footer {position: relative;
+      bottom: 0px;
+      clear: both;
+      /*margin-top: -150px;  /* negative value of footer height */
       height: 30px;
       background-color: rgba(117,1,103,0.1);
-      clear: both;
-      margin-top: 40px;
+     /* margin-top: 40px;*/
+      margin-top: 8px;
       text-align: center;
       font-size: 14px;
       font-family: Garamond;
       padding-top: 18px;
       letter-spacing: 1px;
-      position: absolute;
-      bottom: 12px;
       width: 100%;
       }
 
-table {text-align: center;
-      margin: auto;
-      padding: 5px 5px 5px 5px;
 
-    }
 
-table img {border: 1px solid black;}
 
-.hl {color: white;
-text-decoration: underline;
-font-family: 'Poiret One', cursive;
-font-weight: bold;
-letter-spacing: 2px;}
 
-ol li {display: block;
-  font-family: 'Poiret One', cursive;
-  position: relative;
-  left: 110px;
-  line-height: 20px;
-}
+/*styles for the black border around page*/
+
 
 .extra1 {
-  background-image: url(platform.png);
-  position: fixed;
-  top: 270px;
-  right: 85px;
-  width: 85px;
-  height: 184px;
-  margin: -85px;
-}
-
-.extra2 {
-  background-image: url(edge_bottom_black.gif);
+  background-image: url(images/edge_bottom_black.gif);
   background-repeat: repeat-x;
   position: fixed;
   bottom: 0;
@@ -156,10 +241,10 @@ ol li {display: block;
   width: 100%;
   height: 20px;
   margin-left: -100%;
-}
+  }
 
-.extra3 {
-  background-image: url(edge_top_black.gif);
+.extra2 {
+  background-image: url(images/edge_top_black.gif);
   background-repeat: repeat-x;
   position: fixed;
   top: 0;
@@ -167,10 +252,10 @@ ol li {display: block;
   width: 100%;
   height: 20px;
   margin-left: -100%;
-}
+  }
 
-.extra4 {
-  background-image: url(edge_left_black.gif);
+.extra3 {
+  background-image: url(images/edge_left_black.gif);
   background-repeat: repeat-y;
   position: fixed;
   top: 0;
@@ -178,10 +263,10 @@ ol li {display: block;
   width: 20px;
   height: 100%;
   margin: 0;
-}
+  }
 
-.extra5 {
-  background-image: url(edge_right_black.gif);
+.extra4 {
+  background-image: url(images/edge_right_black.gif);
   background-repeat: repeat-y;
   position: fixed;
   top: 0;
@@ -189,4 +274,98 @@ ol li {display: block;
   width: 20px;
   height: 100%;
   margin: 0;
+  }
+
+
+
+/*Mobile website*/
+
+@media (max-width: 480px) and (-webkit-min-device-pixel-ratio: 1.25) {
+
+header {
+       height: 370px;
+     
+      padding-bottom: -30px;
+    }
+
+
+
+.right {width: 95%;
+       height: 100%;}
+
+
+.right p {margin: 15px 0px 0 0px;
+                padding: 0 30px 0 30px;}
+
+.right h2 {text-align: center;}
+
+#footer {bottom: 10px;
 }
+
+.fwtable {display: block;
+ width:270px; 
+    margin-left:auto; 
+    margin-right:auto;}
+
+.fwpictures {width: 270px; }
+
+.indopictures {width: 300px; 
+  margin-left: auto;
+margin-right: auto;}
+
+.gallery {height: 215px;
+width: 350px;}
+
+.shift li {left: 10px;
+width: 80%;} 
+}
+
+
+
+/*Tablet website*/
+
+@media (max-width: 768px) {
+ 
+
+header {
+       height: 330px;
+     
+      padding-bottom: -30px;
+    }
+
+
+
+.right {width: 95%;
+       height: 100%;}
+
+.right p {margin: 15px 0px 0 0px;
+                padding: 0 30px 0 30px;}
+
+.right h2 {text-align: center;}
+
+#footer {bottom: 10px;
+}
+
+.fwtable {display: block;
+ width:300px; 
+    margin-left:auto; 
+    margin-right:auto;}
+
+.fwpictures {width: 300px; }
+
+.indopictures {width: 400px; 
+  margin-left: auto;
+margin-right: auto;}
+
+.projectpictures {width: 250px; 
+  margin-left: auto;
+margin-right: auto;}
+
+.gallery {height: 330px;
+width: 500px;}
+
+.shift li {left: 20px;
+width: 80%;} 
+
+}
+
